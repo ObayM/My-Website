@@ -38,8 +38,7 @@ function Sky() {
     ref.current.rotation.y = Math.cos(state.clock.elapsedTime / 2) / 2
     ref.current.rotation.x = Math.sin(state.clock.elapsedTime / 2) / 2
     cloud0.current.rotation.y -= delta
-  })
-
+  }) 
   return (
     <>
       <SkyImpl />
