@@ -4,7 +4,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Obay Rashad",
-  description: "Obay Rashad is a ",
+  description: "Obay Mohammed Rashad",
 };
 
 export default function RootLayout({ children }) {
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar/>
         {children}
-        <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID}/>
+        <GoogleAnalytics gaId="G-WPXMZWCLFK"/>
       </body>
     </html>
   );
