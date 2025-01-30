@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
+import {ExternalLink, Github, PlayCircle } from "lucide-react";
 
 const ProjectCard = ({ project }) => {
   return (

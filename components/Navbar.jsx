@@ -2,18 +2,18 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
-import { Menu, X, Home, FolderKanban, BookOpen, FileText, Newspaper, Trophy } from 'lucide-react';
+import { Menu, Home, FolderKanban, BookOpen, FileText, Newspaper, Trophy } from 'lucide-react';
 
-const Header = () => {
+const Navbar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const navItems = [
     { title: 'Home', href: '/', icon: Home },
     { title: 'Projects', href: '/projects', icon: FolderKanban },
-    { title: 'Journey', href: '/journey', icon: BookOpen },
-    { title: 'Resume', href: '/resume', icon: FileText },
-    { title: 'Blog', href: '/blog', icon: Newspaper },
+    // { title: 'Journey', href: '/journey', icon: BookOpen }, Coming soon
+    // { title: 'Resume', href: '/resume', icon: FileText }, Coming soon
     { title: 'Awards', href: '/awards', icon: Trophy },
+    { title: 'Blog', href: '/blog', icon: Newspaper },
   ];
 
   return (
@@ -76,5 +76,5 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
 

@@ -83,4 +83,41 @@ export const projects = [
 ];
 
 
-
+export const awards = [
+  {
+    Title: "AWS AI & ML Scholarship Recipient",
+    Description : "Selected as one of 2,000 recipients worldwide for the AWS AI & ML Scholarship, a full scholarship valued at $4,000 USD, providing access to Udacity’s AI Programming with Python Nanodegree. As one of the youngest recipients at just 16 years old.",
+    Images: [
+      "https://cloud-6912xb2se-hack-club-bot.vercel.app/01728044770540.jpeg",
+      "https://cloud-6912xb2se-hack-club-bot.vercel.app/51718476514709.jpeg",
+      "https://media.licdn.com/dms/image/v2/D5622AQHBkA9dsvhMAQ/feedshare-shrink_800/feedshare-shrink_800/0/1728047469562?e=1741219200&v=beta&t=nEDvrOA7z26WMD56jynAPza8Ea0B4_-kR5JWhJfeLY4",
+    ],
+    AwardingBody: "Amazon Web Services (AWS)",
+    Link: "https://www.udacity.com/certificate/e/a492eaf0-2dce-11ef-8db1-5bcf389cf9aa",
+    LinkDes: "See Graduation Certificate",
+  },
+  {
+    Title: "Global Nominee @NASA Space apps",
+    Description: "Ranked 6th out of 70+ teams and nominated for global judging.",
+    Images: [
+      "https://cloud-6912xb2se-hack-club-bot.vercel.app/41728665147314.jpeg",
+      "https://cloud-6912xb2se-hack-club-bot.vercel.app/11728505003737.jpeg",
+      "https://cloud-gc04ootkj-hack-club-bot.vercel.app/0image.png",
+    ],
+    AwardingBody:"NASA Space apps",
+    Link: "https://www.facebook.com/share/p/1HXQP3MPQC/",
+    LinkDes: "See Anouncement Post",
+  },
+  {
+    Title: "First Place - Article Competition (Quality Education)",
+    Description: "Secured 1st place out of 140 participants internationally in the Student Perspectives and Research Knowledge Articles Competition, under the Quality Education category.",
+    Images: [
+      "https://cloud-6912xb2se-hack-club-bot.vercel.app/31732315293424.jpeg",
+      "https://cloud-6912xb2se-hack-club-bot.vercel.app/2467160767_567546712693789_1580371882457961494_n.jpg",
+    ],
+    AwardingBody:"STEM Model United Nations (STEM-MUN)",
+    Link: "https://www.facebook.com/STEMModelUnitedNations/posts/stem-mun-congratulates-the-top-3-entries-in-each-of-the-two-categories-of-the-sp/567548546026939/",
+    LinkDes: "See Anouncement Post",
+  },
+]
+// difsofj
