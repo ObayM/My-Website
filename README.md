@@ -2,7 +2,7 @@
 
 This is the repository for my personal portfolio website, built to showcase my skills, projects, and experience.
 
-#### Watch the video demo ![Here](/)
+#### Watch the video demo  [Here](https://cloud-5scg60z5g-hack-club-bot.vercel.app/1screenrun-01-30-2025-11-59-29.mp4)
 
 
 ## Technologies Used
@@ -16,11 +16,9 @@ This is the repository for my personal portfolio website, built to showcase my s
 - 3D animated background
 - Sliding effect (Projects page)
 - Glassmorphism effects
+- And more --> Visit [obay.site](https://www.obay.site/)
 
 Some Screenshots 
-![Homepage](/images/screenshot1.png)
-![Projects page](/images/screenshot2.png)
-![Awards Page](/images/screenshot3.png)
-
+![Homepage](https://cloud-5scg60z5g-hack-club-bot.vercel.app/0chrome-capture-2025-1-30.gif)
 
 
